@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: 'mongodb+srv://codegeek:codegeekatlas@cluster0.s2py3.mongodb.net/?retryWrites=true&w=majority'
+      database: product-service
+  application:
+    name: product-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 0
